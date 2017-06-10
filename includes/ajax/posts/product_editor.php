@@ -1,9 +1,6 @@
 <?php
 /**
  * ajax -> posts -> product editor
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // fetch bootstrap

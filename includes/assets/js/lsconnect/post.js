@@ -1,8 +1,5 @@
 /**
  * post js
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // initialize API URLs

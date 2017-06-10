@@ -1,9 +1,6 @@
 <?php
 /**
  * ajax -> data -> create|edit <-> page|group
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // fetch bootstrap

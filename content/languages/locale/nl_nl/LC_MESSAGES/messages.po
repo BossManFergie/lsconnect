@@ -2896,7 +2896,7 @@ msgstr "Laatste login:"
 #: content/themes/default/templates/_sidebar.tpl:40
 #: content/themes/default/templates/__feeds_post.tpl:341
 #: content/themes/default/templates/__feeds_user.tpl:24
-#: includes/assets/js/sngine/user.js:687
+#: includes/assets/js/lsconnect/user.js:687
 msgid "Friends"
 msgstr "Vrienden"
 

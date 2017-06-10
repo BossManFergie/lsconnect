@@ -1,9 +1,6 @@
 <?php
 /**
  * ajax -> users -> mutual friends
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // fetch bootstrap

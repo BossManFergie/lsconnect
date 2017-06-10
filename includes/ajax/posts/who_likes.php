@@ -1,9 +1,6 @@
 <?php
 /**
  * ajax -> posts -> likes
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // fetch bootstrap

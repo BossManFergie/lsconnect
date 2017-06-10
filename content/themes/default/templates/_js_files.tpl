@@ -132,14 +132,14 @@
 {/if}
 <!-- Dependencies Plugins -->
 
-<!-- Sngine [JS] -->
-<script src="{$system['system_url']}/includes/assets/js/sngine/core.js"></script>
+<!-- LSConnect [JS] -->
+<script src="{$system['system_url']}/includes/assets/js/lsconnect/core.js"></script>
 {if $user->_logged_in}
-    <script src="{$system['system_url']}/includes/assets/js/sngine/user.js"></script>
-    <script src="{$system['system_url']}/includes/assets/js/sngine/post.js"></script>
-    <script src="{$system['system_url']}/includes/assets/js/sngine/chat.js"></script>
+    <script src="{$system['system_url']}/includes/assets/js/lsconnect/user.js"></script>
+    <script src="{$system['system_url']}/includes/assets/js/lsconnect/post.js"></script>
+    <script src="{$system['system_url']}/includes/assets/js/lsconnect/chat.js"></script>
 {/if}
-<!-- Sngine [JS] -->
+<!-- LSConnect [JS] -->
 
 
 {if $page == "admin"}
@@ -158,9 +158,9 @@
     <link rel="stylesheet" type='text/css' href="{$system['system_url']}/includes/assets/js/plugins/datetimepicker/bootstrap-datetimepicker.min.css">
     <!-- Dependencies Plugins [JS] -->
 
-    <!-- Sngine [JS] -->
-    <script src="{$system['system_url']}/includes/assets/js/sngine/admin.js"></script>
-    <!-- Sngine [JS] -->
+    <!-- LSConnect [JS] -->
+    <script src="{$system['system_url']}/includes/assets/js/lsconnect/admin.js"></script>
+    <!-- LSConnect [JS] -->
 
     <!-- Admin Charts -->
     <script src="https://code.highcharts.com/highcharts.js"></script>

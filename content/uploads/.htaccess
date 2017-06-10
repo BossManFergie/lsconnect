@@ -8,8 +8,8 @@ Options -ExecCGI -Indexes
 RewriteEngine On
 RewriteCond %{REMOTE_ADDR} !^(xxx\.xxx\.xxx\.xxx|xxx\.xxx\xxx\.xxx|66\.249\.)
 RewriteCond %{HTTP_HOST} !^(127\.0\.0\.0|localhost) [NC]
-#RewriteCond %{HTTP_REFERER} !^https?://(.+\.)?sngine\.com/ [NC]
-#RewriteRule .* http://sngine.com/ [L]
+#RewriteCond %{HTTP_REFERER} !^https?://(.+\.)?ls-connect\.us/ [NC]
+#RewriteRule .* http://ls-connect.us [L]
 
 # Block shell uploaders, htshells, and other baddies
 RewriteCond %{REQUEST_URI} ((php|my|bypass)?shell|remview.*|phpremoteview.*|sshphp.*|pcom|nstview.*|c99|c100|r57|webadmin.*|phpget.*|phpwriter.*|fileditor.*|locus7.*|storm7.*)\.(p?s?x?htm?l?|txt|aspx?|cfml?|cgi|pl|php[3-9]{0,1}|jsp?|sql|xml) [NC,OR]

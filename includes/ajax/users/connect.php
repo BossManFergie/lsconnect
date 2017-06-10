@@ -1,9 +1,6 @@
 <?php
 /**
  * ajax -> users -> connect
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // fetch bootstrap

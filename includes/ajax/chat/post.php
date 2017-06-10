@@ -1,9 +1,6 @@
 <?php
 /**
  * ajax -> chat -> post
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // fetch bootstrap

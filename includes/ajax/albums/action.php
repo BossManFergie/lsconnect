@@ -1,9 +1,6 @@
 <?php
 /**
  * ajax -> albums -> action
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // fetch bootstrap

@@ -1,9 +1,6 @@
 <?php
 /**
  * ajax -> data -> mention
- * 
- * @package Sngine v2+
- * @author Zamblek
  */
 
 // fetch bootstrap
