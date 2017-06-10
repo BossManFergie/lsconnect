@@ -168,18 +168,18 @@ echo '<script'; ?>
  src='https://www.google.com/recaptcha/api.js'><?php echo '</script'; ?>
 ><?php }?><!-- Dependencies Plugins --><!-- Sngine [JS] --><?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
-/includes/assets/js/sngine/core.js"><?php echo '</script'; ?>
+/includes/assets/js/lsconnect/core.js"><?php echo '</script'; ?>
 ><?php if ($_smarty_tpl->tpl_vars['user']->value->_logged_in) {
 echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
-/includes/assets/js/sngine/user.js"><?php echo '</script'; ?>
+/includes/assets/js/lsconnect/user.js"><?php echo '</script'; ?>
 ><?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
-/includes/assets/js/sngine/post.js"><?php echo '</script'; ?>
+/includes/assets/js/lsconnect/post.js"><?php echo '</script'; ?>
 ><?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
-/includes/assets/js/sngine/chat.js"><?php echo '</script'; ?>
-><?php }?><!-- Sngine [JS] --><?php if ($_smarty_tpl->tpl_vars['page']->value == "admin") {?><!-- Dependencies Plugins --><?php echo '<script'; ?>
+/includes/assets/js/lsconnect/chat.js"><?php echo '</script'; ?>
+><?php }?><!-- lsconnect [JS] --><?php if ($_smarty_tpl->tpl_vars['page']->value == "admin") {?><!-- Dependencies Plugins --><?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
 /includes/assets/js/plugins/metisMenu/metisMenu.min.js"><?php echo '</script'; ?>
 ><link rel="stylesheet" type='text/css' href="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
@@ -198,10 +198,10 @@ echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
 /includes/assets/js/plugins/datetimepicker/bootstrap-datetimepicker.min.js"><?php echo '</script'; ?>
 ><link rel="stylesheet" type='text/css' href="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
-/includes/assets/js/plugins/datetimepicker/bootstrap-datetimepicker.min.css"><!-- Dependencies Plugins [JS] --><!-- Sngine [JS] --><?php echo '<script'; ?>
+/includes/assets/js/plugins/datetimepicker/bootstrap-datetimepicker.min.css"><!-- Dependencies Plugins [JS] --><!-- lsconnect [JS] --><?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['system']->value['system_url'];?>
-/includes/assets/js/sngine/admin.js"><?php echo '</script'; ?>
-><!-- Sngine [JS] --><!-- Admin Charts --><?php echo '<script'; ?>
+/includes/assets/js/lsconnect/admin.js"><?php echo '</script'; ?>
+><!-- lsconnect [JS] --><!-- Admin Charts --><?php echo '<script'; ?>
  src="https://code.highcharts.com/highcharts.js"><?php echo '</script'; ?>
 ><?php echo '<script'; ?>
  src="https://code.highcharts.com/modules/exporting.js"><?php echo '</script'; ?>
