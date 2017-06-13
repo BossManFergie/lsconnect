@@ -5,13 +5,13 @@
 
 // ** MySQL settings ** //
 /** The name of the database */
-define('DB_NAME', 'lsconnec_site');
+define('DB_NAME', 'db_name');
 
 /** MySQL database username */
-define('DB_USER', 'lsconnec_tony');
+define('DB_USER', 'db_username');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'sp34k');
+define('DB_PASSWORD', 'db_password');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
